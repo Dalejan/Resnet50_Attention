@@ -57,3 +57,22 @@ All the files required to run a jupyter notbook (google colab notebook) that tra
 4. We compared the performance metrics of each architecture variation and also, visually, how good was it attention.
 
 ## Comparison results
+
+### Performance metrics
+
+- Original
+  | Loss | Accuracy | Val_Loss | Val_Accuracy |
+  | ------ | -------- | -------- | ------------ |
+  | 0.0213 | 0.9993 | 0.9498 | 0.8202 |
+
+- SE
+  | Loss | Accuracy | Val_Loss | Val_Accuracy |
+  | ------ | -------- | -------- | ------------ |
+  | 0.0162 | 1.0000 | 0.7298 | 0.8451 |
+
+- CBAM
+  | Loss | Accuracy | Val_Loss | Val_Accuracy |
+  | ------ | -------- | -------- | ------------ |
+  | 0.0161 | 1.0000 | 0.7674 | 0.8360 |
+
+### Attention
