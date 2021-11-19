@@ -1,5 +1,7 @@
 # Resnet50 Architecture
 
+The ResNet architecture is based on residual connections throughout the layers, this type of connections helps with the problem of vanishing gradient that does not allow the training of the lower layers of the model.
+
 ## Results
 
 - Model Accuracy
