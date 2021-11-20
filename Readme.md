@@ -29,6 +29,9 @@ All the files required to run a jupyter notebook (google colab notebook) that tr
 
 All the files required to run a jupyter notebook (google colab notebook) that train and test a simplified Resnet50's version with a SE (Squeeze and Excitation Module).
 
+- Grad-CAM
+  Images generated using Grad-CAM on each model already trained.
+
 ## The data
 
 [CIFAR10](https://keras.io/api/datasets/cifar10/) dataset is a collection of 50.000 small images (32x32x3) labeled with 10 categories.
