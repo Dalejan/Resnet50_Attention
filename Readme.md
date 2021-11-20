@@ -9,25 +9,25 @@
 
 ## Introduction
 
-The attention in CNN architectures could be defined as the capacity of a network on focusing on importan features and discard irrelevant ones, improving this topic on Neural Networks has shown increasing performance and results.
+The attention in CNN architectures could be defined as the capacity of a network on focusing on important features and discard irrelevant ones, improving this topic on Neural Networks has shown increased performance and results.
 
-The attention can be added to an existing architecture by using modules such as Squeeze and Exitate and CBAM, which are precesily the ones we experiment on this project.
+The attention can be added to an existing architecture by using modules such as Squeeze and Excitation and CBAM, which are precisely the ones we experimented on this project.
 
-This project shows 3 different ResNet50 implementations to classify the CIFAR10 images and how the attention modules can affect it's performance.
+This project shows 3 different ResNet50 implementations to classify the CIFAR10 dataset and how the attention modules can improve it's performance.
 
 ## Project structure
 
 - Resnet50 - Original
 
-All the files required to run a jupyter notbook (google colab notebook) that train and test a simplified Resnet50's version without attention modules.
+All the files required to run a jupyter notebook (google colab notebook) that train and test a simplified Resnet50's version without attention modules.
 
 - Resnet50 - CBAM
 
-All the files required to run a jupyter notbook (google colab notebook) that train and test a simplified Resnet50's version with a CBAM (Convolutional Block Attention Module).
+All the files required to run a jupyter notebook (google colab notebook) that train and test a simplified Resnet50's version with a CBAM (Convolutional Block Attention Module).
 
 - Resnet50 - SE
 
-All the files required to run a jupyter notbook (google colab notebook) that train and test a simplified Resnet50's version with a SE (Squeeze and Excitation Module).
+All the files required to run a jupyter notebook (google colab notebook) that train and test a simplified Resnet50's version with a SE (Squeeze and Excitation Module).
 
 ## The data
 
@@ -48,13 +48,13 @@ All the files required to run a jupyter notbook (google colab notebook) that tra
 
 ## Analysis Process
 
-1. Initially we decided to check the performance of the original network and how it detects features, this was posible using the Gradient-weighted Class Activation Map that shows us on a visual way were are the more important features that the network uses to classify an image.
+1. Initially we wanted to review the performance of the original network when detecting features, this was possible using the Gradient-weighted Class Activation Map that shows us, in a visual way, where are the most important features that the network uses to classify an image in a certain class.
 
 2. Then we implemented the Squeeze and Excitation Module and inserted it between strategical layers on the architecture.
 
 3. We also implemented the CBAM in the same way we did with SE.
 
-4. We compared the performance metrics of each architecture variation and also, visually, how good was it attention.
+4. We compared the performance metrics of each architecture variation and also, visually, how good was its attention.
 
 ## Comparison results
 
