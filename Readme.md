@@ -81,16 +81,26 @@ Images generated using Grad-CAM on each model already trained.
 
 ### Attention
 
+- CBAM: Convolutional Block Attention Module - Sanghyun Woo et. al
+
+The results of the authors shows an increase attention with the CBAM module, showing that the model learned the concept of objectness. The heatmap covers not only the object of the class but also the most relevant faeature of this class, whereas the oringal ResNet-50 focuses its attention in apparently irrelevant features.
+
+
+  <img src="https://github.com/Dalejan/Resnet50_Attention/blob/master/authors_gradcam.jpg">
+
 As we can see, the attention gets better as we intentionally change the attention modules, with better results using CBAM.
 The heatmaps have a better location with the CBAM approach
 
 - Original Attention
+
   <img src="https://github.com/Dalejan/Resnet50_Attention/blob/master/Resnet50_Original/ori.jpg">
 
 - SE Attention
+
   <img src="https://github.com/Dalejan/Resnet50_Attention/blob/master/Resnet50_SE/se.jpg">
 
 - CBAM Attention
+
   <img src="https://github.com/Dalejan/Resnet50_Attention/blob/master/Resnet50_CBAM/cbam.jpg">
 
-  <img src="https://github.com/Dalejan/Resnet50_Attention/blob/master/authors_gradcam.jpg">
+
