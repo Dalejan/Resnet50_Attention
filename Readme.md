@@ -92,3 +92,5 @@ The heatmaps have a better location with the CBAM approach
 
 - CBAM Attention
   <img src="https://github.com/Dalejan/Resnet50_Attention/blob/master/Resnet50_CBAM/cbam.jpg">
+
+  <img src="https://github.com/Dalejan/Resnet50_Attention/blob/master/authors_gradcam.jpg">
