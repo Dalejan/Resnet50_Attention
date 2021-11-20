@@ -82,6 +82,11 @@ All the files required to run a jupyter notebook (google colab notebook) that tr
 
 As we can see, the attention gets better as we intentionally change the attention modules, with better results using CBAM.
 
-<img src="https://github.com/Dalejan/Resnet50_Attention/blob/master/Resnet50_Original/ori.jpg">
-<img src="https://github.com/Dalejan/Resnet50_Attention/blob/master/Resnet50_CBAM/cbam.jpg">
-<img src="https://github.com/Dalejan/Resnet50_Attention/blob/master/Resnet50_SE/se.jpg">
+- Original Attention
+  <img src="https://github.com/Dalejan/Resnet50_Attention/blob/master/Resnet50_Original/ori.jpg">
+
+- SE Attention
+  <img src="https://github.com/Dalejan/Resnet50_Attention/blob/master/Resnet50_SE/se.jpg">
+
+- CBAM Attention
+  <img src="https://github.com/Dalejan/Resnet50_Attention/blob/master/Resnet50_CBAM/cbam.jpg">
