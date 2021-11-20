@@ -79,3 +79,9 @@ All the files required to run a jupyter notebook (google colab notebook) that tr
   | 0.0161 | 1.0000 | 0.7674 | 0.8360 |
 
 ### Attention
+
+As we can see, the attention gets better as we intentionally change the attention modules, with better results using CBAM.
+
+<img src="https://github.com/Dalejan/Resnet50_Attention/blob/master/Resnet50_Original/ori.jpg">
+<img src="https://github.com/Dalejan/Resnet50_Attention/blob/master/Resnet50_CBAM/cbam.jpg">
+<img src="https://github.com/Dalejan/Resnet50_Attention/blob/master/Resnet50_SE/se.jpg">
