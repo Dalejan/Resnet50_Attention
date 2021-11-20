@@ -30,7 +30,8 @@ All the files required to run a jupyter notebook (google colab notebook) that tr
 All the files required to run a jupyter notebook (google colab notebook) that train and test a simplified Resnet50's version with a SE (Squeeze and Excitation Module).
 
 - Grad-CAM
-  Images generated using Grad-CAM on each model already trained.
+
+Images generated using Grad-CAM on each model already trained.
 
 ## The data
 
