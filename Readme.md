@@ -82,6 +82,7 @@ Images generated using Grad-CAM on each model already trained.
 ### Attention
 
 As we can see, the attention gets better as we intentionally change the attention modules, with better results using CBAM.
+The heatmaps have a better location with the CBAM approach
 
 - Original Attention
   <img src="https://github.com/Dalejan/Resnet50_Attention/blob/master/Resnet50_Original/ori.jpg">
