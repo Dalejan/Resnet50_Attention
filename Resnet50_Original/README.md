@@ -20,8 +20,8 @@ As we can see, the performance of the network is not quite good.
 | ------ | -------- | -------- | ------------ |
 | 0.0213 | 0.9993   | 0.9498   | 0.8202       |
 
-And the attention seems to be on ilogical locations.
+And the attention seems to be unfocused.
 
----
+<img src="https://github.com/Dalejan/Resnet50_Attention/blob/master/Resnet50_Original/ori.jpg">
 
 So let's test the same architecture with attention modules (Resnet50_CBAM and Resnet50_SE).
