@@ -4,11 +4,11 @@
 
 - Model Accuracy
 
-  <img src="https://github.com/Dalejan/Resnet50_Attention/blob/master/Resnet50_CBAM/acc_cbam.png">
+  <img src="https://github.com/Dalejan/Resnet50_Attention/blob/master/Resnet50_CBAM/acc.png">
 
 - Model Loss
 
-  <img src="https://github.com/Dalejan/Resnet50_Attention/blob/master/Resnet50_CBAM/loss_cbam.png">
+  <img src="https://github.com/Dalejan/Resnet50_Attention/blob/master/Resnet50_CBAM/loss.png">
 
 ## Conclusions
 
