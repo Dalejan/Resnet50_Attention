@@ -23,4 +23,4 @@ As we can see, the performance of the network is not quite good, but it's slight
 
 An sample image on how the attention worked on this implementation shows that it focuses on the head of the bird. This seems very logical as it is one of the mos important things we as humans identify from this animal.
 
-  <img src="https://github.com/Dalejan/Resnet50_Attention/blob/master/Resnet50_SE/se..jpg">
+<img src="https://github.com/Dalejan/Resnet50_Attention/blob/master/Resnet50_SE/se.jpg">
